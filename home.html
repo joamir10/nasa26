@@ -3,14 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NASA Space Apps Planet X | Home</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefa<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NASA Space Apps | Planet X — Home</title>
   <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap" rel="stylesheet">
   <style>
@@ -503,12 +495,13 @@
     <!-- Hero Section -->
     <section class="hero">
       <div>
-        <div class="hero-tag">So, you want to travel to</div>
-        <h1>Space</h1>
+        <div class="hero-tag">Spot the movers in the</div>
+        <h1>Sky</h1>
         <p>
-          Let’s face it; if you want to go to space, you might as well genuinely go to
-          outer space and not hover kind of on the edge of it. Well sit back, and relax
-          because we’ll give you a truly out of this world experience!
+          Since 2025, NASA’s SPHEREx mission has mapped the entire sky every six months in
+          102 bands of near-infrared light. Comets, asteroids, stars, brown dwarfs and even new
+          planets give themselves away by shifting position between images. Enter a patch of sky,
+          flip through the frames like a little video, and find what moves.
         </p>
         <div class="hero-hint">
           Click anywhere in space to spawn more star particles &bull; Active Particles: <strong id="particleCount">140</strong>
@@ -516,7 +509,7 @@
       </div>
       <div class="hero-cta-wrap">
         <a href="explore.html" class="explore-btn">Explore</a>
-        <a href="#articles" class="scroll-link">↓ Read Mission Articles</a>
+        <a href="#articles" class="scroll-link">↓ Read the Challenge Brief</a>
       </div>
     </section>
 
@@ -524,14 +517,14 @@
     <section class="articles-section" id="articles">
       <div class="section-head">
         <div>
-          <h2 class="section-title"><span>01</span> Mission Articles &amp; Dispatches</h2>
-          <p class="section-sub">Latest findings, spectral sky surveys, and deep-space exploration logs.</p>
+          <h2 class="section-title"><span>01</span> Challenge Briefing</h2>
+          <p class="section-sub">Background, objectives and test targets for the Planet X and SPHEREx challenge.</p>
         </div>
         <div class="filter-tabs" id="filterTabs">
-          <button class="tab-btn active" data-cat="All">All Articles</button>
-          <button class="tab-btn" data-cat="Planet X">Planet X</button>
-          <button class="tab-btn" data-cat="Deep Sky">Deep Sky</button>
-          <button class="tab-btn" data-cat="Telemetry">Telemetry</button>
+          <button class="tab-btn active" data-cat="All">All Topics</button>
+          <button class="tab-btn" data-cat="Challenge">Challenge</button>
+          <button class="tab-btn" data-cat="SPHEREx">SPHEREx</button>
+          <button class="tab-btn" data-cat="Discovery">Discovery</button>
         </div>
       </div>
 
@@ -717,58 +710,58 @@
     const articles = [
       {
         id: 1,
-        category: "Planet X",
-        date: "May 14, 2025 • DR1 Release",
-        readTime: "4 min read",
-        title: "Mapping the Outer Kuiper Belt for Planet X Signatures",
+        category: "Challenge",
+        date: "2026 NASA Space Apps Challenge",
+        readTime: "3 min read",
+        title: "Build a Public Web Tool to Watch the Sky Change",
         image: "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&fit=crop&w=900&q=80",
-        excerpt: "Using wide-field infrared sky surveys to track subtle orbital anomalies among distant trans-Neptunian objects.",
+        excerpt: "Enter a patch of sky and see SPHEREx images play back like a little video, making moving objects easy to spot.",
         content: [
-          "Deep beyond Neptune's orbit lies a cold frontier of icy bodies whose elongated trajectories hint at the gravitational influence of an unseen massive world—Planet X.",
-          "By combining multi-epoch infrared observations across consecutive survey windows, our team isolates faint moving targets against dense background starfields.",
-          "Explore the 9 candidate sky sectors directly in our interactive 3D sky wheel on the Explore page, where you can inspect coordinates and custom observation dates."
+          "The challenge is to create a public-facing web tool that displays SPHEREx images of the sky and makes it easy for anyone to see how they change over time.",
+          "Users enter the coordinates of a patch of sky as Right Ascension and declination. The tool then shows a series of images of that patch, so a point of light that shifts between frames stands out.",
+          "Nice extras include choosing the field of view, adding or subtracting images from different times, overlaying Gaia or WISE data, showing contamination flags, and accepting coordinates in the URL so the tool can be embedded elsewhere. Try these ideas on the Explore page."
         ]
       },
       {
         id: 2,
-        category: "Deep Sky",
-        date: "Nov 02, 2025 • DR2 Release",
-        readTime: "5 min read",
-        title: "All-Sky Spectral Mapping: Unveiling Cosmic Ice & Water",
+        category: "SPHEREx",
+        date: "SPHEREx Mission",
+        readTime: "4 min read",
+        title: "SPHEREx: Mapping the Whole Sky in 102 Infrared Colors",
         image: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=900&q=80",
-        excerpt: "How spectrophotometric imaging across 102 infrared color bands reveals hidden reservoirs of water in stellar nurseries.",
+        excerpt: "A new all-sky survey, repeated every six months, returns images of more than a billion objects.",
         content: [
-          "Every patch of sky holds chemical fingerprints encoded in near-infrared light. Unlike traditional cameras that capture only a few broad colors, spectral mapping splits light into dozens of narrow bands.",
-          "This technique lets researchers measure the abundance of water ice, carbon monoxide, and organic molecules inside dense interstellar clouds before stars even ignite.",
-          "Each sector in our Explore wheel corresponds to a high-priority spectral field tracked throughout the 2025–2026 observation timeline."
+          "Since May 2025, SPHEREx has been mapping the whole sky once every six months in 102 bands of near-infrared light.",
+          "That makes it especially sensitive to objects rich in hydrogen, water, carbon dioxide, carbon monoxide and many other molecules.",
+          "The images cover more than a billion objects, including brown dwarfs, quasars, comets, asteroids, stars, supernovae and galaxies. That is far too much data for any one person, or even one program, to take in, which is why new tools are needed."
         ]
       },
       {
         id: 3,
-        category: "Telemetry",
-        date: "May 19, 2026 • QR2 Release",
-        readTime: "3 min read",
-        title: "Navigating Multi-Epoch Sky Coordinates in Real Time",
+        category: "Discovery",
+        date: "How Discoveries Happen",
+        readTime: "4 min read",
+        title: "How Moving Dots Become Discoveries",
         image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80",
-        excerpt: "A guide to using Right Ascension, Declination, and custom date queries to compare celestial targets across seasons.",
+        excerpt: "From Pluto to brown dwarfs, comparing images taken at different times is one of astronomy’s oldest tricks.",
         content: [
-          "Because Earth orbits the Sun, every celestial sector is revisited roughly every six months under shifting solar elongation angles.",
-          "Comparing early DR1 images against later QR2 and QR3 epochs allows astronomers to separate stationary galaxies from fast-moving solar system objects.",
-          "Head over to the Explore page, click any of the 9 sky cards, and test both the numeric date selector and custom sky coordinate inputs."
+          "Asteroids and comets orbit the Sun, nearby stars drift across the sky as they orbit the Galaxy, and Earth’s own orbit shifts the apparent position of objects close to us.",
+          "Pluto was found when an astronomer compared two images of the sky taken at different times and noticed that one point of light had moved.",
+          "Today hundreds of thousands of volunteers use the same method through projects like backyardworlds.org, and most known comets and brown dwarfs were found this way. Brown dwarfs are balls of gas too massive to be planets but too small to burn like stars."
         ]
       },
       {
         id: 4,
-        category: "Planet X",
-        date: "Nov 10, 2026 • QR3 Release",
-        readTime: "6 min read",
-        title: "Preparing Human & Robotic Missions for Deep-Space Frontiers",
+        category: "Challenge",
+        date: "Test Your Tool",
+        readTime: "2 min read",
+        title: "Five Test Targets for Your Sky Viewer",
         image: "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=900&q=80",
-        excerpt: "From low-Earth orbital staging to long-range deep-space probes, see how mission timelines are engineered.",
+        excerpt: "Barnard’s Star, Epsilon Indi B, WISE 0855, RW Aurigae and R Draconis make good checks.",
         content: [
-          "Charting new worlds begins with precise orbital mechanics, radiation shielding, and autonomous optical navigation.",
-          "Our NASA Space Apps Planet X initiative bridges public data visualization with real astronomical coordinate workflows so anyone can explore deep-sky sectors.",
-          "Meet the engineers, data scientists, and designers behind this project on the Team page."
+          "The challenge suggests testing your tool on Barnard’s Star, Epsilon Indi B (a pair of brown dwarfs orbiting a star), WISE 0855, and the variable stars RW Aurigae and R Draconis.",
+          "WISE 0855 is a fast-moving brown dwarf at Right Ascension 08h55m10.831s and declination -7d14m42.53s, so it is a great test of whether your tool shows motion clearly.",
+          "Head to the Explore page to open a sky field and see how the viewer handles each target."
         ]
       }
     ];
@@ -898,711 +891,6 @@
       })(last);
     }
   })();
-  </script>
-</body>
-</html>
-ir&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg-black: #000000;
-      --text-light: #D0D6F9;
-      --white: #FFFFFF;
-      --glass: rgba(255, 255, 255, 0.04);
-      --glass-border: rgba(255, 255, 255, 0.14);
-      --font-serif: 'Bellefair', serif;
-      --font-sans-cond: 'Barlow Condensed', sans-serif;
-      --font-sans: 'Barlow', sans-serif;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      background-color: var(--bg-black);
-      color: var(--white);
-      font-family: var(--font-sans);
-      min-height: 100vh;
-      overflow-x: hidden;
-      position: relative;
-      display: flex;
-      flex-direction: column;
-    }
-
-    /* --- Twinkling Black Starfield Background --- */
-    #starfield {
-      position: fixed;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 0;
-      pointer-events: none;
-    }
-
-    /* --- Unified Header Bar --- */
-    header {
-      position: relative;
-      z-index: 10;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1.5rem 0 1.5rem 3rem;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      text-decoration: none;
-      color: var(--white);
-    }
-
-    .logo {
-      width: 44px;
-      height: 44px;
-      background: var(--white);
-      color: var(--bg-black);
-      border-radius: 50%;
-      display: grid;
-      place-items: center;
-      font-weight: bold;
-      font-size: 1.4rem;
-      flex-shrink: 0;
-    }
-
-    .brand-title {
-      font-family: var(--font-sans-cond);
-      font-size: 1.05rem;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      color: var(--text-light);
-    }
-
-    nav {
-      background: var(--glass);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      padding: 0 5rem 0 3.5rem;
-      border-left: 1px solid var(--glass-border);
-      border-bottom: 1px solid var(--glass-border);
-    }
-
-    nav ul {
-      display: flex;
-      list-style: none;
-      gap: 2.75rem;
-    }
-
-    nav a {
-      display: inline-block;
-      padding: 1.65rem 0;
-      color: var(--white);
-      text-decoration: none;
-      font-family: var(--font-sans-cond);
-      font-size: 1rem;
-      letter-spacing: 2.7px;
-      text-transform: uppercase;
-      border-bottom: 3px solid transparent;
-      transition: border-color 0.25s ease;
-    }
-
-    nav a:hover {
-      border-bottom-color: rgba(255, 255, 255, 0.5);
-    }
-
-    nav a.active {
-      border-bottom-color: var(--white);
-    }
-
-    nav a span {
-      font-weight: 700;
-      margin-right: 0.6rem;
-    }
-
-    /* --- Main Content Container --- */
-    main {
-      position: relative;
-      z-index: 5;
-      max-width: 1180px;
-      width: 100%;
-      margin: 0 auto;
-      padding: 0 2.5rem 5rem;
-    }
-
-    /* --- Hero Section (Home) --- */
-    .hero-section {
-      min-height: calc(100vh - 100px);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 3rem;
-      padding: 3rem 0;
-    }
-
-    .hero-copy {
-      max-width: 500px;
-    }
-
-    .hero-copy h5 {
-      font-family: var(--font-sans-cond);
-      font-size: 1.55rem;
-      font-weight: 400;
-      letter-spacing: 4.72px;
-      text-transform: uppercase;
-      color: var(--text-light);
-      margin-bottom: 1.25rem;
-    }
-
-    .hero-copy h1 {
-      font-family: var(--font-serif);
-      font-size: clamp(5rem, 11vw, 9.25rem);
-      font-weight: 400;
-      line-height: 1;
-      text-transform: uppercase;
-      margin-bottom: 1.5rem;
-    }
-
-    .hero-copy p {
-      color: var(--text-light);
-      font-size: 1.1rem;
-      line-height: 1.8;
-    }
-
-    .hero-cta-wrap {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1.5rem;
-    }
-
-    .explore-orb {
-      width: 245px;
-      height: 245px;
-      border-radius: 50%;
-      background: var(--white);
-      color: var(--bg-black);
-      display: grid;
-      place-items: center;
-      text-decoration: none;
-      font-family: var(--font-serif);
-      font-size: 1.9rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      position: relative;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .explore-orb::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      border-radius: 50%;
-      background: rgba(255, 255, 255, 0.12);
-      transform: scale(1);
-      transition: transform 0.4s ease;
-      z-index: -1;
-    }
-
-    .explore-orb:hover {
-      transform: scale(1.03);
-    }
-
-    .explore-orb:hover::after {
-      transform: scale(1.32);
-    }
-
-    .scroll-hint {
-      font-family: var(--font-sans-cond);
-      font-size: 0.85rem;
-      letter-spacing: 2.5px;
-      text-transform: uppercase;
-      color: var(--text-light);
-      text-decoration: none;
-      opacity: 0.75;
-      transition: opacity 0.2s;
-    }
-
-    .scroll-hint:hover {
-      opacity: 1;
-      color: var(--white);
-    }
-
-    /* --- Articles Section (Below Home Hero) --- */
-    .articles-section {
-      padding-top: 4.5rem;
-      border-top: 1px solid rgba(255, 255, 255, 0.12);
-    }
-
-    .section-header {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: flex-end;
-      gap: 1.5rem;
-      margin-bottom: 2.5rem;
-    }
-
-    .section-title {
-      font-family: var(--font-sans-cond);
-      font-size: 1.75rem;
-      letter-spacing: 4.5px;
-      text-transform: uppercase;
-      font-weight: 400;
-    }
-
-    .section-title span {
-      color: rgba(255, 255, 255, 0.28);
-      font-weight: 700;
-      margin-right: 0.9rem;
-    }
-
-    .filter-tabs {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.65rem;
-    }
-
-    .filter-btn {
-      background: rgba(255, 255, 255, 0.04);
-      color: var(--text-light);
-      border: 1px solid var(--glass-border);
-      padding: 0.5rem 1.15rem;
-      border-radius: 30px;
-      font-family: var(--font-sans-cond);
-      font-size: 0.9rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      cursor: pointer;
-      transition: all 0.2s ease;
-    }
-
-    .filter-btn:hover,
-    .filter-btn.active {
-      background: var(--white);
-      color: var(--bg-black);
-      border-color: var(--white);
-    }
-
-    .articles-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
-      gap: 2rem;
-    }
-
-    .article-card {
-      background: rgba(12, 14, 24, 0.85);
-      border: 1px solid var(--glass-border);
-      border-radius: 14px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      backdrop-filter: blur(12px);
-      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
-    }
-
-    .article-card:hover {
-      transform: translateY(-5px);
-      border-color: rgba(255, 255, 255, 0.45);
-      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.75);
-    }
-
-    .article-thumb {
-      width: 100%;
-      height: 195px;
-      object-fit: cover;
-      display: block;
-      border-bottom: 1px solid var(--glass-border);
-    }
-
-    .article-body {
-      padding: 1.6rem;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    .article-meta {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-family: var(--font-sans-cond);
-      font-size: 0.82rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: var(--text-light);
-      margin-bottom: 0.75rem;
-    }
-
-    .article-tag {
-      background: rgba(208, 214, 249, 0.12);
-      padding: 0.2rem 0.65rem;
-      border-radius: 4px;
-      color: var(--white);
-    }
-
-    .article-body h3 {
-      font-family: var(--font-serif);
-      font-size: 1.55rem;
-      font-weight: 400;
-      line-height: 1.3;
-      margin-bottom: 0.85rem;
-      color: var(--white);
-    }
-
-    .article-excerpt {
-      color: var(--text-light);
-      font-size: 0.96rem;
-      line-height: 1.65;
-      margin-bottom: 1.5rem;
-    }
-
-    .read-btn {
-      align-self: flex-start;
-      background: transparent;
-      color: var(--white);
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      padding: 0.55rem 1.25rem;
-      border-radius: 30px;
-      font-family: var(--font-sans-cond);
-      font-size: 0.9rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      cursor: pointer;
-      transition: all 0.2s ease;
-    }
-
-    .read-btn:hover {
-      background: var(--white);
-      color: var(--bg-black);
-      border-color: var(--white);
-    }
-
-    /* --- Full Article Reader Modal --- */
-    .article-modal {
-      position: fixed;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.88);
-      backdrop-filter: blur(10px);
-      display: none;
-      place-items: center;
-      z-index: 100;
-      padding: 1.5rem;
-    }
-
-    .article-modal.open {
-      display: grid;
-    }
-
-    .reader-panel {
-      background: #0c0e18;
-      border: 1px solid rgba(255, 255, 255, 0.22);
-      border-radius: 16px;
-      max-width: 760px;
-      width: 100%;
-      max-height: 88vh;
-      overflow-y: auto;
-      position: relative;
-      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9);
-    }
-
-    .reader-close {
-      position: sticky;
-      top: 1rem;
-      float: right;
-      margin: 1rem 1rem 0 0;
-      background: rgba(0, 0, 0, 0.75);
-      color: var(--white);
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      padding: 0.4rem 0.95rem;
-      border-radius: 20px;
-      font-family: var(--font-sans-cond);
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      cursor: pointer;
-      z-index: 10;
-    }
-
-    .reader-close:hover {
-      background: var(--white);
-      color: var(--bg-black);
-    }
-
-    .reader-banner {
-      width: 100%;
-      height: 260px;
-      object-fit: cover;
-      display: block;
-      border-bottom: 1px solid var(--glass-border);
-    }
-
-    .reader-content {
-      padding: 2.25rem;
-    }
-
-    .reader-meta {
-      font-family: var(--font-sans-cond);
-      font-size: 0.9rem;
-      letter-spacing: 2.5px;
-      text-transform: uppercase;
-      color: var(--text-light);
-      margin-bottom: 0.6rem;
-    }
-
-    .reader-content h2 {
-      font-family: var(--font-serif);
-      font-size: 2.4rem;
-      font-weight: 400;
-      line-height: 1.2;
-      margin-bottom: 1.25rem;
-    }
-
-    .reader-text p {
-      color: var(--text-light);
-      font-size: 1.05rem;
-      line-height: 1.85;
-      margin-bottom: 1.15rem;
-    }
-
-    @media (max-width: 860px) {
-      header {
-        padding-left: 1.5rem;
-      }
-      nav {
-        padding: 0 1.5rem;
-      }
-      nav ul {
-        gap: 1.4rem;
-      }
-      .hero-section {
-        flex-direction: column;
-        text-align: center;
-        min-height: auto;
-        padding: 3.5rem 0;
-      }
-      .explore-orb {
-        width: 195px;
-        height: 195px;
-        font-size: 1.5rem;
-      }
-    }
-  </style>
-</head>
-<body>
-
-  <canvas id="starfield"></canvas>
-
-  <header>
-    <a href="home.html" class="brand">
-      <div class="logo">✦</div>
-      <span class="brand-title">NASA Space Apps • Planet X</span>
-    </a>
-    <nav>
-      <ul>
-        <li><a href="home.html" class="active"><span>00</span> Home</a></li>
-        <li><a href="explore.html"><span>01</span> Explore</a></li>
-        <li><a href="team.html"><span>02</span> Team</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <!-- Home Hero Section -->
-    <section class="hero-section">
-      <div class="hero-copy">
-        <h5>So, you want to travel to</h5>
-        <h1>Space</h1>
-        <p>
-          Let's face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we'll give you a truly out of this world experience!
-        </p>
-      </div>
-
-      <div class="hero-cta-wrap">
-        <a href="explore.html" class="explore-orb">Explore</a>
-        <a href="#articles" class="scroll-hint">↓ Read Mission Articles</a>
-      </div>
-    </section>
-
-    <!-- Mission Articles Section -->
-    <section class="articles-section" id="articles">
-      <div class="section-header">
-        <h2 class="section-title"><span>01</span> Mission Articles &amp; Dispatches</h2>
-        <div class="filter-tabs" id="filterTabs">
-          <button class="filter-btn active" data-cat="All">All Articles</button>
-          <button class="filter-btn" data-cat="Telemetry">Telemetry</button>
-          <button class="filter-btn" data-cat="Deep Sky">Deep Sky</button>
-          <button class="filter-btn" data-cat="Planet X">Planet X</button>
-        </div>
-      </div>
-
-      <div class="articles-grid" id="articlesGrid"></div>
-    </section>
-  </main>
-
-  <!-- Article Reader Pop-Out Modal -->
-  <div class="article-modal" id="articleModal">
-    <div class="reader-panel">
-      <button class="reader-close" id="closeReader">✕ Close</button>
-      <img class="reader-banner" id="readerImg" src="" alt="Article Banner">
-      <div class="reader-content">
-        <div class="reader-meta" id="readerMeta"></div>
-        <h2 id="readerTitle"></h2>
-        <div class="reader-text" id="readerBody"></div>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    // 1. Twinkling Black Starfield
-    const canvas = document.getElementById('starfield');
-    const ctx = canvas.getContext('2d');
-    let stars = [];
-
-    function resizeStars() {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-      stars = Array.from({ length: 180 }, () => ({
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height,
-        r: Math.random() * 1.5 + 0.3,
-        alpha: Math.random(),
-        speed: Math.random() * 0.015 + 0.004
-      }));
-    }
-
-    function drawStars() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      for (const s of stars) {
-        s.alpha += s.speed;
-        if (s.alpha > 1 || s.alpha < 0.15) s.speed = -s.speed;
-        ctx.beginPath();
-        ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(255, 255, 255, ${s.alpha.toFixed(2)})`;
-        ctx.fill();
-      }
-      requestAnimationFrame(drawStars);
-    }
-
-    window.addEventListener('resize', resizeStars);
-    resizeStars();
-    drawStars();
-
-    // 2. Mission Articles Data (Add or edit as many articles as needed)
-    const articles = [
-      {
-        id: 1,
-        category: "Telemetry",
-        date: "May 2025 • DR1 Release",
-        readTime: "4 Min Read",
-        title: "Mapping the All-Sky Infrared Spectrum with SPHEREx",
-        excerpt: "How wide-field spectrophotometry captures hundreds of millions of galaxies and reveals water ice reservoirs across interstellar clouds.",
-        image: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=900&q=80",
-        paragraphs: [
-          "Every six months, the SPHEREx observatory surveys the entire celestial sphere across 102 distinct near-infrared wavelengths. Unlike narrow-field telescopes that zoom into tiny patches of sky, this wide-field approach builds a complete three-dimensional map of cosmic structure.",
-          "By measuring the spectral signatures of over 450 million galaxies, researchers can trace the physics of cosmic inflation—the rapid expansion that occurred fractions of a second after the Big Bang.",
-          "In our own Milky Way, these same infrared bands detect hidden pockets of water, carbon dioxide, and organic ices locked onto interstellar dust grains inside stellar nurseries."
-        ]
-      },
-      {
-        id: 2,
-        category: "Planet X",
-        date: "Nov 2025 • DR2 Survey",
-        readTime: "5 Min Read",
-        title: "Hunting for Planet X in the Outer Kuiper Belt",
-        excerpt: "Analyzing subtle orbital clustering among extreme trans-Neptunian objects to narrow down sky coordinates for the ninth planet.",
-        image: "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?auto=format&fit=crop&w=900&q=80",
-        paragraphs: [
-          "Beyond Neptune's orbit lies a cold frontier populated by icy bodies following unusually elongated, tilted trajectories. Their aligned perihelia suggest the gravitational shepherd influence of an unseen super-Earth.",
-          "By cross-referencing multi-epoch infrared frames taken months apart, astronomers filter out stationary background stars to isolate faint, slow-moving solar system candidates.",
-          "You can inspect our nine highest-priority search sectors directly in the Explore wheel, testing custom sky coordinates and observation dates across mission timelines."
-        ]
-      },
-      {
-        id: 3,
-        category: "Deep Sky",
-        date: "May 2026 • QR2 Bulletin",
-        readTime: "3 Min Read",
-        title: "Tracing Cosmic Water from Molecular Clouds to Habitable Worlds",
-        excerpt: "Follow the journey of biogenic molecules from cold dark nebulae to protoplanetary disks where new rocky worlds take shape.",
-        image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80",
-        paragraphs: [
-          "Where did Earth's oceans originate? Infrared spectroscopy shows that much of the water found in young planetary systems was already frozen onto microscopic dust particles long before the host star ignited.",
-          "As collapsing gas clouds warm into protoplanetary disks, these ice-coated grains collide and grow into comets, asteroids, and terrestrial planets.",
-          "Tracking the abundance of H2O and CO2 ice across thousands of star-forming regions helps mission planners identify the most promising exoplanetary systems for future exploration."
-        ]
-      },
-      {
-        id: 4,
-        category: "Telemetry",
-        date: "Nov 2026 • QR3 Update",
-        readTime: "4 Min Read",
-        title: "Navigating Deep-Space Trajectories Across Multi-Year Epochs",
-        excerpt: "How mission planners synchronize observation windows, orbital drift, and cryogenic thermal stability during extended sky surveys.",
-        image: "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=900&q=80",
-        paragraphs: [
-          "Operating an infrared telescope in sun-synchronous low-Earth orbit requires strict thermal shielding from both solar radiation and Earth's warm albedo.",
-          "Nested V-groove photon shields passively cool the focal plane below 80 Kelvin without relying on heavy liquid cryogens, extending the mission's operational window across multiple data releases.",
-          "Each quarter, newly calibrated sky patches are indexed by Right Ascension and Declination so researchers and students worldwide can compare temporal changes in the cosmos."
-        ]
-      }
-    ];
-
-    const grid = document.getElementById('articlesGrid');
-    const modal = document.getElementById('articleModal');
-
-    function renderArticles(filter = 'All') {
-      grid.innerHTML = '';
-      const filtered = filter === 'All' ? articles : articles.filter(a => a.category === filter);
-
-      filtered.forEach(art => {
-        const card = document.createElement('article');
-        card.className = 'article-card';
-        card.innerHTML = `
-          <img class="article-thumb" src="${art.image}" alt="${art.title}">
-          <div class="article-body">
-            <div>
-              <div class="article-meta">
-                <span class="article-tag">${art.category}</span>
-                <span>${art.date}</span>
-              </div>
-              <h3>${art.title}</h3>
-              <p class="article-excerpt">${art.excerpt}</p>
-            </div>
-            <button class="read-btn" data-id="${art.id}">Read Full Article →</button>
-          </div>
-        `;
-        card.querySelector('.read-btn').addEventListener('click', () => openArticle(art));
-        grid.appendChild(card);
-      });
-    }
-
-    function openArticle(art) {
-      document.getElementById('readerImg').src = art.image;
-      document.getElementById('readerMeta').textContent = `${art.category}  •  ${art.date}  •  ${art.readTime}`;
-      document.getElementById('readerTitle').textContent = art.title;
-      document.getElementById('readerBody').innerHTML = art.paragraphs.map(p => `<p>${p}</p>`).join('');
-      modal.classList.add('open');
-    }
-
-    document.getElementById('closeReader').addEventListener('click', () => modal.classList.remove('open'));
-    modal.addEventListener('click', e => { if (e.target === modal) modal.classList.remove('open'); });
-
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        renderArticles(btn.dataset.cat);
-      });
-    });
-
-    renderArticles();
   </script>
 </body>
 </html>
