@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: planetx
+    runtime: docker
+    envVars:
+      - key: COOKIE_SECURE
+        value: "1"
+      - key: TRUST_PROXY
+        value: "1"
+      - key: MODEL_BACKEND
+        value: custom
+    # عشان الداتا ما تضيعش بعد كل نشر لازم disk دائم (خطة مدفوعة على Render):
+    # disk:
+    #   name: data
+    #   mountPath: /app/data
+    #   sizeGB: 1

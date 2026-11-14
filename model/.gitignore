@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+data/*.db*
+.env
+custom_model.py

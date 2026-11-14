@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "category": "Challenge",
+    "date": "2026 NASA Space Apps Challenge",
+    "readTime": "3 min read",
+    "title": "Build a Public Web Tool to Watch the Sky Change",
+    "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&fit=crop&w=900&q=80",
+    "excerpt": "Enter a patch of sky and see SPHEREx images play back like a little video, making moving objects easy to spot.",
+    "content": [
+      "The challenge is to create a public-facing web tool that displays SPHEREx images of the sky and makes it easy for anyone to see how they change over time.",
+      "Users enter the coordinates of a patch of sky as Right Ascension and declination. The tool then shows a series of images of that patch, so a point of light that shifts between frames stands out.",
+      "Nice extras include choosing the field of view, adding or subtracting images from different times, overlaying Gaia or WISE data, showing contamination flags, and accepting coordinates in the URL so the tool can be embedded elsewhere. Try these ideas on the Explore page."
+    ]
+  },
+  {
+    "id": 2,
+    "category": "SPHEREx",
+    "date": "SPHEREx Mission",
+    "readTime": "4 min read",
+    "title": "SPHEREx: Mapping the Whole Sky in 102 Infrared Colors",
+    "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=900&q=80",
+    "excerpt": "A new all-sky survey, repeated every six months, returns images of more than a billion objects.",
+    "content": [
+      "Since May 2025, SPHEREx has been mapping the whole sky once every six months in 102 bands of near-infrared light.",
+      "That makes it especially sensitive to objects rich in hydrogen, water, carbon dioxide, carbon monoxide and many other molecules.",
+      "The images cover more than a billion objects, including brown dwarfs, quasars, comets, asteroids, stars, supernovae and galaxies. That is far too much data for any one person, or even one program, to take in, which is why new tools are needed."
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Discovery",
+    "date": "How Discoveries Happen",
+    "readTime": "4 min read",
+    "title": "How Moving Dots Become Discoveries",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80",
+    "excerpt": "From Pluto to brown dwarfs, comparing images taken at different times is one of astronomy’s oldest tricks.",
+    "content": [
+      "Asteroids and comets orbit the Sun, nearby stars drift across the sky as they orbit the Galaxy, and Earth’s own orbit shifts the apparent position of objects close to us.",
+      "Pluto was found when an astronomer compared two images of the sky taken at different times and noticed that one point of light had moved.",
+      "Today hundreds of thousands of volunteers use the same method through projects like backyardworlds.org, and most known comets and brown dwarfs were found this way. Brown dwarfs are balls of gas too massive to be planets but too small to burn like stars."
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Challenge",
+    "date": "Test Your Tool",
+    "readTime": "2 min read",
+    "title": "Five Test Targets for Your Sky Viewer",
+    "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=900&q=80",
+    "excerpt": "Barnard’s Star, Epsilon Indi B, WISE 0855, RW Aurigae and R Draconis make good checks.",
+    "content": [
+      "The challenge suggests testing your tool on Barnard’s Star, Epsilon Indi B (a pair of brown dwarfs orbiting a star), WISE 0855, and the variable stars RW Aurigae and R Draconis.",
+      "WISE 0855 is a fast-moving brown dwarf at Right Ascension 08h55m10.831s and declination -7d14m42.53s, so it is a great test of whether your tool shows motion clearly.",
+      "Head to the Explore page to open a sky field and see how the viewer handles each target."
+    ]
+  }
+]

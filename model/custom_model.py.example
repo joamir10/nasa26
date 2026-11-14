@@ -1,0 +1,27 @@
+"""
+انسخ الملف ده باسم custom_model.py وخلّي MODEL_BACKEND=custom
+الباك اند هيستدعي predict(payload) مع كل طلب /api/analyze.
+"""
+INFO = {"name": "my-model", "version": "0.1"}
+_model = None
+
+
+def _load():
+    global _model
+    if _model is None:
+        # ONNX:    import onnxruntime as ort; _model = ort.InferenceSession("models/model.onnx")
+        # PyTorch: import torch; _model = torch.jit.load("models/model.pt").eval()
+        pass
+    return _model
+
+
+def predict(payload: dict) -> dict:
+    """
+    payload = {ra, dec, fov, sources: [{epoch, x, y, flux}, ...]}   (x غرب، y شمال بالثواني القوسية)
+    لازم يرجّع:
+      {"tracks": [{"id": "M1", "ra": .., "dec": .., "pm_arcsec_yr": .., "pa_deg": .., "score": ..}],
+       "n_static": عدد المصادر الثابتة}
+    اختياري في كل track: x, y, n_epochs, n_total_epochs, pm_snr
+    """
+    model = _load()  # noqa: F841
+    raise NotImplementedError("حوّل payload لمدخلات الموديل وارجع tracks")
